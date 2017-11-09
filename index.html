@@ -12,62 +12,71 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light "style="background-color: #e3f2fd;">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
 
+    </nav>
+    //
           <main role="main">
 
 
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="http://www.ebc-designs.com/wp-content/uploads/2015/04/custom_banner_design.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://www.omsoftware.net/uploads/posting_images/9909747abc75d0442140f8b039289317.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://lh3.googleusercontent.com/-EqBmjMSqpPQ/V0bhXNbaKmI/AAAAAAAAEoY/GGaU7t_-EtIXXGWWdVAQvqvSErCBQFJcg/w999-h300/web-development-banner.png" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAzHAAAAJDBkMmUzM2QxLWY1YjktNGM2ZS05NDU5LTBhY2E3ODE5MDcxNg.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://thecraftingchicks.com/wp-content/uploads/2016/05/sm-summer-banner.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAzHAAAAJDBkMmUzM2QxLWY1YjktNGM2ZS05NDU5LTBhY2E3ODE5MDcxNg.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 <div class="container">
        <!-- Example row of columns -->
 <br>
@@ -267,79 +276,8 @@
           </div>
           </div>
         </div>
-<<<<<<< HEAD
-        </div> <!-- /container -->
-<br>
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="https://thumb7.shutterstock.com/display_pic_with_logo/3781844/432113701/stock-photo-sale-banner-design-sale-tag-for-promotional-brochure-poster-advertising-shopping-flyer-discount-432113701.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="https://thumb7.shutterstock.com/display_pic_with_logo/2817508/617782757/stock-vector-creative-sale-banner-or-sale-poster-of-monsoon-season-with-colorful-line-art-umbrella-text-space-617782757.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="https://thumb9.shutterstock.com/display_pic_with_logo/2817508/501767935/stock-vector-a-beautiful-illustration-poster-or-banner-for-indian-festival-of-dhanteras-diwali-celebration-501767935.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="https://thumb1.shutterstock.com/display_pic_with_logo/2666260/671435179/stock-vector-back-to-school-banner-design-with-lettering-and-school-supplies-flat-lay-style-671435179.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
-  </div>
-</div>
-<br>
-<div class="row">
-
-<div class="col-sm-4">
-<div class="card">
-<div class="card-body">
-<h4 class="card-title">Special title treatment</h4>
-<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      </div>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="card">
-<div class="card-body">
-<h4 class="card-title">Special title treatment</h4>
-<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      </div>
-</div>
-</div>
-</div>
-
         </div>
-<<<<<<< HEAD
-
-=======
         
->>>>>>> e8a90de822150cf8f86d36b57a8449ee941917dc
-
 <br>
 <div class="jumbotron">
   <h1 class="display-3">Hello, world!</h1>
